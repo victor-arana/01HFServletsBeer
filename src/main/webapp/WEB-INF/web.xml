@@ -7,20 +7,10 @@
 		<servlet-name> Ch3 Beer </servlet-name>
 		<servlet-class>com.example.web.BeerSelect </servlet-class>
 	</servlet>
-	<servlet>
-		<servlet-name>BeerSelect</servlet-name>
-		<display-name>BeerSelect</display-name>
-		<description></description>
-		<servlet-class>com.example.web.BeerSelect</servlet-class>
-	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>Ch3 Beer</servlet-name>
 		<url-pattern>/SelectBeer.do</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>BeerSelect</servlet-name>
-		<url-pattern>/BeerSelect</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
